@@ -13,5 +13,18 @@ def fibonacci(num):
     Returns:
         int: the Fibonacci number
     """
-    # TODO implement method
-    return num
+    if num == 0:
+        return 1
+    elif num == 1:
+        return 1
+    elif num < 0:
+        return 0
+    else:
+        fib_n_minus_1 = 1
+        fib_n_minus_2 = 1
+        fib_n = 2
+        for x in range (1, num):
+            fib_n = fib_n_minus_1 + fib_n_minus_2
+            fib_n_minus_2 = fib_n_minus_1
+            fib_n_minus_1 = fib_n
+    return fib_n

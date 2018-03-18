@@ -1,4 +1,4 @@
-from week1 import fibonacci
+from week1.fibonacci import fibonacci
 
 
 def test_basic():

@@ -12,8 +12,8 @@ def test_mid():
 
 
 def test_invalid():
-    assert fibonacci(-1) == -1
-    assert fibonacci(-2) == -1
+    assert fibonacci(-1) == 0
+    assert fibonacci(-2) == 0
 
 
 def test_huge():

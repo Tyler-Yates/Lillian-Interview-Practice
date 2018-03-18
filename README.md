@@ -3,7 +3,7 @@
 Practice problems for interviews.
 
 ## Tests
-Tests live under the `tests` folder.
+Tests live in the same directory as their exercise.
 
-Tests are written as `nose` tests. Install `nose` to run the tests:
-`pip install nose`
+Tests are written as `py.test` tests. Install `py.test` to run the tests:
+`pip install pytest`

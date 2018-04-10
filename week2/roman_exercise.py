@@ -9,7 +9,7 @@ def to_roman(number):
     L - 50
     C - 100
     D - 500
-    M -1000
+    M - 1000
 
     Args:
         number (int): the given number
